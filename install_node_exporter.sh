@@ -10,7 +10,7 @@ fi
 VERSION="${1:-1.8.2}"
 ARCH="linux-amd64"
 INSTALL_DIR="/opt/exporter"
-DOWNLOAD_URL="https://github.com{VERSION}/node_exporter-${VERSION}.${ARCH}.tar.gz"
+DOWNLOAD_URL="https://github.com/prometheus/node_exporter/releases/download/v${VERSION}/node_exporter-${VERSION}.${ARCH}.tar.gz"
 
 echo "================================================="
 echo "⚙️  准备安装 Node Exporter 版本: v${VERSION}"
